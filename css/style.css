@@ -1,0 +1,532 @@
+/*STILE HOMEPAGE*/
+.main-img,
+    html{
+        min-height: 100%
+        
+}
+.main-img{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.28), rgba(0, 0, 0, 0.28)), url(../img/jack-catterall-6268.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+
+    
+}
+
+
+.ciaouser {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: white;
+    padding: 1%;
+    display: inline-block;
+    position: relative;
+    left: -45%;
+}
+
+body h1 {
+    text-align: center;
+}
+
+body h1.titolo {
+    font-family: 'Roboto', sans-serif;
+    font-size:72px;
+    color:white;
+    padding-bottom: 1%;
+    padding-top: 6%;
+}
+
+header {
+    position: absolute;
+    width: 100%;
+	height: 100%;
+} 
+
+nav {
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 2%;
+    border-top:1.5px solid white;
+}
+
+nav ul {
+    text-align: center;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.40) 25%, rgba(255, 255, 255, 0.40) 75%, rgba(255, 255, 255, 0) 100%); 
+}
+
+nav ul li {
+    
+    display: inline-block;   
+}
+
+nav ul li a {
+    padding: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+}
+
+nav ul li a:hover
+{
+    
+    background-color: rgba(0, 0, 0, 0.18);
+}
+
+.S_button {
+    padding: 5% 2.7%;
+    text-align: center;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    margin: 10%;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: rgba(162, 164, 160, 0.78);
+    color: white;
+    border: 6px solid white;
+    border-radius: 100%;
+}
+
+.S_button:hover {background-color: rgba(243, 10, 40, 0.67);}
+
+
+/*scroll down*/
+
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300,400);
+* {
+	margin: 0;
+	padding: 0;
+}
+html, body {
+	height: 100%;
+}
+section {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+section::after {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	content: '';
+	width: 100%;
+	height: 80%;
+	background: -webkit-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,.8) 80%,rgba(0,0,0,.8) 100%);
+	background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,.8) 80%,rgba(0,0,0,.8) 100%);
+}
+.demo a {
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	z-index: 2;
+	display: inline-block;
+	-webkit-transform: translate(0, -50%);
+	transform: translate(0, -50%);
+	color: #fff;
+	font : normal 400 20px/1 'Josefin Sans', sans-serif;
+	letter-spacing: .1em;
+	text-decoration: none;
+	transition: opacity .3s;
+}
+.demo a:hover {
+	opacity: .5;
+}
+
+#index a {
+	padding-bottom: 190px;
+}
+#index a span {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 24px;
+	height: 24px;
+	margin-left: -12px;
+	border-left: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	box-sizing: border-box;
+}
+}
+#prefazione,
+    html    {
+        min-height: 100%
+}
+    #prefazione   {
+        background-color: black;
+        background-image: url("../img/pref%20ps.jpg");
+        background-size: auto 100%;
+        background-repeat: no-repeat;
+    }
+#prefazione a {
+	padding-top: 60px;
+}
+#prefazione a span {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 24px;
+	height: 24px;
+	margin-left: -12px;
+	border-left: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	box-sizing: border-box;
+}
+
+#settanta,
+    html    {
+        min-height: 100%
+    }
+    #settanta   {
+        background-color: black;
+        background-image: url("../img/1970.jpg");
+        background-size: auto 100%;
+        background-repeat: no-repeat;
+    }
+#settanta a {
+	padding-top: 60px;
+}
+#settanta a span {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 24px;
+	height: 24px;
+	margin-left: -12px;
+	border-left: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	box-sizing: border-box;
+}
+
+#novantadue,
+    html    {
+        min-height: 100%
+    }
+    #novantadue   {
+        background-color: black;
+        background-image: url("../img/1992ps.jpg");
+        background-size: auto 100%;
+        background-repeat: no-repeat;
+    }
+#novantadue a {
+	padding-top: 60px;
+}
+#novantadue a span {
+    position: absolute;
+	top: 0;
+	left: 50%;
+	width: 24px;
+	height: 24px;
+	margin-left: -12px;
+	border-left: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	box-sizing: border-box;
+}
+
+#undici,
+    html    {
+        min-height: 100%
+    }
+    #undici   {
+        background-color: black;
+        background-image: url("../img/2011ps.jpg");
+        background-size: auto 100%;
+        background-repeat: no-repeat;
+    }
+#undici a {
+	padding-top: 60px;
+}
+#undici a span {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 24px;
+	height: 24px;
+	margin-left: -12px;
+	border-left: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	box-sizing: border-box;
+}
+
+#quattordici,
+    html    {
+        min-height: 100%
+    }
+    #quattordici   {
+        background-color: black;
+        background-image: url("../img/2014ps.jpg");
+        background-size: auto 100%;
+        background-repeat: no-repeat;
+    }
+#quattordici a {
+	padding-top: 60px;
+}
+#quattordici a span {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 24px;
+	height: 24px;
+	margin-left: -12px;
+	border-left: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	-webkit-transform: rotate(90deg);
+	transform: rotate(135deg);
+	box-sizing: border-box;
+}
+
+/*PREFAZIONE*/
+
+.pref-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/pref.jpg);
+    background-size:100%;
+}
+
+/*STILE REGISTRAZIONE*/
+
+.error{
+    color:crimson;
+}
+
+.reg-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.28), rgba(0, 0, 0, 0.28)), url(../img/jack-catterall-6268.jpg);
+    background-color: black;
+    background-repeat:no-repeat;
+    background-size:100%;
+    height: inherit;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.reg-format {
+    height: auto;
+    width: 400px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding: 1%;
+    margin: 0 auto;
+    border: 2px solid white;
+    background-color: rgba(52, 65, 56, 0.53);
+}
+
+
+.reg-titolo {
+    font-size: 32px;
+    padding-bottom: 4%;
+    border-bottom: 2px solid white;
+}
+
+.reg-linea {
+    align-self: center;
+    max-width: 70%;
+    border-bottom-color:white;
+}
+.reg-input {
+    padding-top: 15px;
+    text-align: center;
+    font-size:14px;
+    margin: 3%;
+}
+
+.remember { 
+    font-size:12px;
+}
+
+.button {
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 8px;
+    margin: 2px 1px;
+    -webkit-transition-duration: 0.4s solid rgba(138, 137, 137, 0.59);
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white;
+    color: dimgray;
+    border: 2px solid white;
+    border-radius: 12px;
+}
+
+.button:hover {background-color: #e7e7e7;}
+
+* {
+    margin: 5%;
+    padding: 0;
+}
+
+/*STILE LOGIN*/
+
+.log-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.28), rgba(0, 0, 0, 0.28)), url(../img/jack-catterall-6268.jpg);
+    background-color: black;
+    background-repeat:no-repeat;
+    background-size:100%;
+    height: inherit;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.log-format {
+    height: auto;
+    width: 20%;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding: 1%;
+    margin: 0 auto;
+    border: 2px solid white;
+    background-color: rgba(52, 65, 56, 0.53);
+}
+
+.log-titolo {
+    font-size: 32px;
+    padding: 10%;
+    border-bottom: 2px solid white;
+    
+}
+
+.log-input {
+    padding-top: 10%;
+    text-align: center;
+    font-size:14px; 
+    margin: 3%;
+}
+
+.remember {
+    font-size:12px;
+    
+}
+
+.btn-default {
+    color: #686f69;
+    background-color: #fff;
+    margin: 2%;
+}
+
+
+/*STILE PROFILO*/
+
+.prof-tot{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/jack-catterall-6268.jpg);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: inherit;
+    padding: 10%;
+    height: auto;
+}
+
+.prof-titolo{
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.prof-format{
+    color: white;
+    border: 2px solid white;
+    background-color: rgba(231, 231, 231, 0.23);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: auto;
+}
+
+.prof-img{
+    border-bottom: 2px solid white;
+    padding: 1%;
+    margin: 2%
+}
+
+.prof-base{
+    margin: 2%;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    border-bottom: 2px solid white;
+    padding: 5%;
+}
+
+.prof-agg{
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    margin: 2%;
+    padding: 1%;
+    padding-top: 5%;
+}
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: auto;
+    width: 50%;
+    
+    
+}
+
+th, td{
+    text-align: justify;
+    
+}
+
+a
+{
+    text-decoration:none;
+    color: white;
+}
+
+/*STILE SEGNALAZIONE*/
+
+.segn-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.28), rgba(0, 0, 0, 0.28)), url(../img/jack-catterall-6268.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;    
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+/* STILE MESSAGGI*/
+.msg-tot,
+    html{
+        min-height: 100%        
+}
+.msg-tot{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.28), rgba(0, 0, 0, 0.28)), url(../img/jack-catterall-6268.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;  
+}
+
+.msg-titolo{
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+    color: white;  
+    padding-top: 5%;  
+    padding-bottom: 3%;
+}
+
+.msg-format{
+    color: white;
+    border: 2px solid white;
+    background-color: rgba(231, 231, 231, 0.23);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
